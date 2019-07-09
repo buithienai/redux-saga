@@ -3,6 +3,6 @@ import { watchApp } from './appSaga';
 
 export default function* rootSaga() {
 	yield all([
-		fork(watchApp),
+		fork(watchApp)
 	]);
 };
